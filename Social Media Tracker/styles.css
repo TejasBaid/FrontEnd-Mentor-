@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0px;
+  background-color: #1e202a;
+}
+
+#darker-blue {
+  z-index: -1;
+  background-color: #1f212e;
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+}
+
+#title-container {
+  margin-left: 150px;
+}
+
+.title {
+  z-index: 1;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 25px;
+  position: absolute;
+  top: 40px;
+}
+
+#follower-count-title {
+  color: #8b97c6;
+  position: absolute;
+  top: 70px;
+  font-weight: bold;
+  font-family: "Inter";
+  font-size: 12px;
+}
+
+#dashboard {
+  padding: 0;
+  z-index: 1;
+  opacity: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 200px;
+  position: absolute;
+  top: 125px;
+}
+
+.dashboard-stats-bg {
+  border-radius: 5px 5px 10px 10px;
+  padding-left: 0px;
+  z-index: 1;
+  padding-right: 10px;
+  height: 100%;
+}
+
+.dashboard-stats-bg-ig {
+  background: -webkit-gradient(linear, left top, right top, from(#fdc468), to(#df4996));
+  background: linear-gradient(90deg, #fdc468, #df4996);
+}
+
+.dashboard-stats-bg-fb {
+  background-color: deepskyblue;
+}
+
+.dashboard-stats-bg-yt {
+  background-color: red;
+}
+
+.dashboard-stats-bg-twitter {
+  background-color: #1ca0f2;
+}
+
+.dashboard-stats {
+  margin-right: 10px;
+  position: relative;
+  z-index: 2;
+  background-color: #252a41;
+  border-radius: 0 0 5px 5px;
+  height: 98%;
+  width: 105%;
+  top: 2%;
+  overflow: hidden;
+}
+
+.sm-icon {
+  left: 60px;
+  top: 25px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.username {
+  top: 26px;
+  left: 60px;
+  position: relative;
+  display: inline;
+  color: #8b97c6;
+  font-family: "Inter";
+  font-weight: 510;
+  font-size: 10px;
+}
+
+.count {
+  position: relative;
+  color: #fff;
+  margin: auto;
+  top: 40px;
+  left: 38px;
+  font-size: 50px;
+  font-family: "Inter";
+  font-weight: 550;
+}
+
+.followers-tag {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 200;
+  opacity: 70%;
+  color: #8b97c6;
+  position: inherit;
+  top: 40px;
+  left: 50px;
+}
+
+.rate {
+  position: relative;
+  display: inline;
+  top: 35px;
+  left: 65px;
+}
+
+.rate-no-up {
+  position: relative;
+  display: inline;
+  font-family: "Inter";
+  color: #1db489;
+  top: 35px;
+  left: 65px;
+  font-size: 10px;
+  font-weight: 550;
+}
+
+#ig-counter {
+  position: relative;
+  color: #fff;
+  margin: auto;
+  top: 40px;
+  left: 58px;
+  font-size: 50px;
+  font-family: "Inter";
+  font-weight: 550;
+}
+
+.rate-no-down {
+  position: relative;
+  display: inline;
+  font-family: "Inter";
+  color: #dc414c;
+  top: 35px;
+  left: 65px;
+  font-size: 10px;
+  font-weight: 550;
+}
+
+.secondary-title-container {
+  position: relative;
+  left: 150px;
+  top: 320px;
+}
+
+#secondary-title {
+  z-index: 1;
+  color: #fff;
+  font-family: "Inter";
+  font-weight: 550;
+  font-size: 20px;
+  position: absolute;
+  top: 40px;
+}
+
+.overview {
+  width: 80%;
+  left: 150px;
+  position: relative;
+  top: 410px;
+}
+
+.overview-card {
+  border-radius: 5px;
+  padding-right: 10px;
+  margin-bottom: 25px;
+  height: 110px;
+  background-color: #252a41;
+}
+
+.seconary-icon {
+  position: relative;
+  left: 80%;
+  top: 20px;
+  display: inline;
+}
+
+.capshion {
+  display: inline;
+  position: absolute;
+  top: 25px;
+  left: 32px;
+}
+
+.capshion-tag {
+  font-weight: 550;
+  opacity: 80%;
+}
+
+.nos {
+  display: inline;
+  position: absolute;
+  font-size: 30px;
+  font-family: "Inter";
+  font-weight: 520;
+  color: white;
+  bottom: 30px;
+  left: 32px;
+}
+
+.rise-up {
+  display: inline;
+  position: absolute;
+  bottom: 48px;
+  right: 27%;
+}
+
+.rise-percentage {
+  position: absolute;
+  display: inline;
+  color: #1db489;
+  font-size: 12px;
+  font-family: "Inter";
+  font-weight: 600;
+  bottom: 25px;
+  right: 19%;
+}
+
+.fall-percentage {
+  position: absolute;
+  display: inline;
+  color: #dc414c;
+  font-size: 12px;
+  font-family: "Inter";
+  font-weight: 600;
+  bottom: 25px;
+  right: 19%;
+}
+
+.rise-up-i {
+  display: inline;
+  position: absolute;
+  bottom: 48px;
+  right: 36%;
+}
+
+.fall-down-i {
+  display: inline;
+  position: absolute;
+  bottom: 48px;
+  right: 30%;
+}
+/*# sourceMappingURL=styles.css.map */

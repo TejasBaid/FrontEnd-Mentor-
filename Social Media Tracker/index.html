@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Social Media Tracker</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!--START-->
+
+
+
+  </head>
+  <body>
+    <!-- The darker container at the top -->
+
+    <div id="darker-blue"></div>
+    <!-- The title text -->
+
+    <div id="title-container">
+        <h1 class="title">Social Media Dashboard</h1>
+        <p id="follower-count-title">Total Followers: 23,004</p>
+    </div>
+
+    <!--TODO: The dark light toggle button-->
+
+    <!--DASHBOARD-->
+    <!--The DASHBOARD ROW CONAINER-->
+    <div class="row container" id="dashboard">
+        <div class="col-lg-3">
+            <div class="dashboard-stats-bg-fb dashboard-stats-bg container-fluid">
+              <div class="dashboard-stats container-fluid">
+                <!--CONTENT-->
+                <img class="sm-icon" src="Images/icon-facebook.svg">
+                <p class="username">@natahanf</p>
+                <h1 class="count">1987</h1>
+                <p class="followers-tag">F O L L O W E R S</p>
+                <img class="rate" src="Images/icon-up.svg" >
+                <p class="rate-no-up" >12 Today</p>
+                <!--END CONTENT-->
+              </div> 
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="dashboard-stats-bg-twitter dashboard-stats-bg container-fluid">
+              <div class="dashboard-stats container-fluid">
+                <!--CONTENT-->
+                <img class="sm-icon" src="Images/icon-twitter.svg">
+                <p class="username">@natahanf</p>
+                <h1 class="count">1044</h1>
+                <p class="followers-tag">F O L L O W E R S</p>
+                <img class="rate" src="Images/icon-up.svg" >
+                <p class="rate-no-up" >99 Today</p>
+                <!--END CONTENT-->
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="dashboard-stats-bg-ig dashboard-stats-bg container-fluid">
+              <div class="dashboard-stats container-fluid">
+                <!--CONTENT-->
+                <img class="sm-icon" src="Images/icon-instagram.svg">
+                <p class="username">@realnathanf</p>
+                <h1 class="count" id="ig-counter">11K</h1>
+                <p class="followers-tag">F O L L O W E R S</p>
+                <img class="rate" src="Images/icon-up.svg" >
+                <p class="rate-no-up" >1099 Today</p>
+                <!--END CONTENT-->
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="dashboard-stats-bg-yt dashboard-stats-bg container-fluid">
+              <div class="dashboard-stats container-fluid">
+                <!--CONTENT-->
+                <img class="sm-icon" src="Images/icon-youtube.svg">
+                <p class="username">@Nathan F.</p>
+                <h1 class="count">8239</h1>
+                <p class="followers-tag">S U B S C R I B E R S</p>
+                <img class="rate" src="Images/icon-down.svg" >
+                <p class="rate-no-down" >144 Today</p>
+                <!--END CONTENT-->
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="secondary-title-container">
+      <h1 id="secondary-title">Overview Today</h1>
+    </div>
+    <div class="overview row">
+      <div class="overview-container col-lg-3 ">
+        <div class="overview-card container-fluid">
+            <img class="seconary-icon" src="Images/icon-facebook.svg">
+            <p class="capshion Followers followers-tag capshion-tag">Page Views</p>
+            <h1 class="nos">87</h1>
+            <img class="rise-up" src="Images/icon-up.svg">
+            <p class="rise-percentage">3%</p>
+        </div>
+      </div>
+      <div class="overview-container col-lg-3 container-fluid">
+        <div class="overview-card">
+          <img class="seconary-icon" src="Images/icon-facebook.svg">
+          <p class="capshion Followers followers-tag capshion-tag">Likes</p>
+          <h1 class="nos">52</h1>
+          <img class="rise-up" src="Images/icon-down.svg">
+          <p class="fall-percentage">2%</p>
+        </div>
+      </div>
+
+      <div class="overview-container col-lg-3">
+        <div class="overview-card" >
+          <img class="seconary-icon" src="Images/icon-instagram.svg">
+          <p class="capshion Followers followers-tag capshion-tag">Page Views</p>
+          <h1 class="nos">5462</h1>
+          <img class="rise-up-i" src="Images/icon-up.svg">
+          <p class="rise-percentage">2257%</p>
+        </div>
+      </div>
+      <div class="overview-container col-lg-3">
+        <div class="overview-card">
+          <img class="seconary-icon" src="Images/icon-instagram.svg">
+          <p class="capshion Followers followers-tag capshion-tag">Profile Views</p>
+          <h1 class="nos">52K</h1>
+          <img class="rise-up-i" src="Images/icon-up.svg">
+          <p class="rise-percentage">1375%</p>
+        </div>
+      </div>
+      <div class="overview-container col-lg-3">
+        <div class="overview-card">
+          <img class="seconary-icon" src="Images/icon-twitter.svg">
+          <p class="capshion Followers followers-tag capshion-tag">Retweets</p>
+          <h1 class="nos">117</h1>
+          <img class="rise-up-i" src="Images/icon-up.svg">
+          <p class="rise-percentage">303%</p>
+        </div>
+      </div>
+      <div class="overview-container col-lg-3">
+        <div class="overview-card">
+          <img class="seconary-icon" src="Images/icon-twitter.svg">
+          <p class="capshion Followers followers-tag capshion-tag">Likes</p>
+          <h1 class="nos">507</h1>
+          <img class="rise-up-i" src="Images/icon-up.svg">
+          <p class="rise-percentage">553%</p>
+        </div>
+      </div>
+      <div class="overview-container col-lg-3">
+        <div class="overview-card">
+          <img class="seconary-icon" src="Images/icon-youtube.svg">
+          <p class="capshion Followers followers-tag capshion-tag">Likes</p>
+          <h1 class="nos">107</h1>
+          <img class="rise-up" src="Images/icon-down.svg">
+          <p class="fall-percentage">3%</p>
+        </div>
+      </div>
+      <div class="overview-container col-lg-3">
+        <div class="overview-card">
+          <img class="seconary-icon" src="Images/icon-youtube.svg">
+          <p class="capshion Followers followers-tag capshion-tag">Total Views</p>
+          <h1 class="nos">1407</h1>
+          <img class="fall-down-i" src="Images/icon-down.svg">
+          <p class="fall-percentage">12%</p>
+        </div>
+      </div>
+
+
+    
+
+   
+
+
+    
+    <!--END-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

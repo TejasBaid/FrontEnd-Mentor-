@@ -1,0 +1,131 @@
+@import 'styles1.scss';
+
+.chosen-one{
+    z-index: 0;
+    position: relative;
+    top: 8vw;
+    width: 70%;
+    height: 28vw;
+    
+    margin: 0 auto;
+}
+.me-pick-conatiner{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 35%;
+    
+}
+.com-pick-container{
+    position: relative;
+    bottom: 28vw;
+    z-index: 2;
+    height: 100%;
+    width: 35%;
+   
+    float: right;
+
+}
+.picked-text{
+    color: white;
+    text-align: center;
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+.backgroundM{
+    position: relative;
+    top: 2.3vw;
+    left: 2.5vw;
+    height: 21vw;
+    width: 21vw;
+    border-radius: 60%;
+    
+}
+.paper-bgB{
+    bottom: 12vw;
+    right: 4vw;
+    background-color: hsl(230, 89%, 65%);
+    box-shadow: 0 1vw 1px -1px hsl(230, 67%, 48%);
+}
+
+.innerB{
+    position: relative;
+    height: 16.5vw;
+    width: 16.5vw;
+    background-color: #fff;
+    border-radius: 60%;
+    margin: auto;
+    top: 2.5vw;
+    box-shadow: inset 0 0.6vw rgba(117, 111, 111, 0.404),
+}
+
+
+.iconM{
+    height: 9vw;
+    position: relative;
+    top: 4vw;
+    left: 4vw;
+    margin: 0 auto;
+}
+.iconC{
+    height: 9vw;
+    position: relative;
+    top: 4vw;
+    left: 4vw;
+    margin: 0 auto;
+}
+
+
+
+.rock-bgB{
+    bottom: 12vw;
+    right: 4vw;
+    background-color: hsl(349, 70%, 56%);
+    box-shadow: 0 1vw 1px -1px hsl(349, 64%, 43%);
+}
+.scissors-bgB{
+    bottom: 12vw;
+    right: 4vw;
+    background-color: hsl(40, 84%, 53%);
+    box-shadow: 0 1vw 1px -1px hsl(39, 83%, 43%);
+}
+.result-conatainer{
+    position: relative;
+    display: inline-block;
+    left: 36%;
+    bottom: 28vw;
+    height: 100%;
+    width: 30%;
+    
+    
+}
+.result{
+    font-size: 4vw;
+    top: 8vw;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.play-again{
+    top:9vw;
+    position: relative;
+    width: 15vw;
+    height: 3.5vw;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    left: 14%;
+    color: hsl(349, 70%, 56%);
+    font-size: 1.2vw;
+    font-family: "Barlow Semi Condensed";
+    font-weight: 400;
+}
+.backgroundC{
+    position: relative;
+    top: 2.3vw;
+    left: 2.5vw;
+    height: 21vw;
+    width: 21vw;
+    border-radius: 60%;
+    
+}
