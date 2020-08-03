@@ -1,0 +1,39 @@
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.body{
+    padding: 2% 10%;
+}
+
+.nav-bar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    font-weight: 400;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+    margin: 0px 1vw;
+
+}
+.get-started-button{
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    box-shadow: -1px 5px 7px hsla(12, 88%, 59%, 0.548);
+    background-color: hsl(12, 88%, 59%);
+}

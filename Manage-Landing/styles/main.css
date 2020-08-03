@@ -1,0 +1,49 @@
+body {
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.body {
+  padding: 2% 10%;
+}
+
+.nav-bar {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.links {
+  font-weight: 400;
+  font-size: 0.85rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  margin: 0px 1vw;
+}
+
+.get-started-button {
+  width: 10vw;
+  height: 6vh;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: -1px 5px 7px rgba(242, 95, 58, 0.548);
+          box-shadow: -1px 5px 7px rgba(242, 95, 58, 0.548);
+  background-color: #f25f3a;
+}
+/*# sourceMappingURL=main.css.map */
