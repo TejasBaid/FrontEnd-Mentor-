@@ -196,3 +196,50 @@ and (orientation: portrait){
         
     }
 }
+.review-container{
+    display: flex;
+    justify-content: center;
+}
+.reviews{
+    
+    position: absolute;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5vw;
+    margin-bottom: 1000px;
+    
+}
+.review{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28vw;
+    
+    height: 30vh;
+    background-color: hsl(0, 0%, 98%);
+}
+.avatar{
+    margin-top: 10px;
+    width: 5vw;
+    
+    height: 5vw;
+    
+    
+}
+.avatar-image{
+    margin-bottom: 50px;
+}
+.review-text{
+    font-size: 0.7rem;
+    line-height: 1.5;
+    max-width: 80%;
+    align-content: center;
+    text-align: center;
+    opacity: 60%;
+    margin-top: 20px;
+}
+h4{
+    margin-top: 10px;
+}

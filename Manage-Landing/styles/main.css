@@ -231,4 +231,68 @@ body {
     font-size: 1rem;
   }
 }
+
+.review-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
+  margin-bottom: 1000px;
+}
+
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 28vw;
+  height: 30vh;
+  background-color: #fafafa;
+}
+
+.avatar {
+  margin-top: 10px;
+  width: 5vw;
+  height: 5vw;
+}
+
+.avatar-image {
+  margin-bottom: 50px;
+}
+
+.review-text {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  max-width: 80%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  opacity: 60%;
+  margin-top: 20px;
+}
+
+h4 {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=main.css.map */
