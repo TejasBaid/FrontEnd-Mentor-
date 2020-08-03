@@ -4,12 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--*Style Sheet Link-->
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
   <title>Manage Landing</title>
 </head>
 <body>
+  <div class="nav-blob-container">
+    <div class="nav-blob">
+    <img class="blob-img" src="images/bg-tablet-pattern.svg" alt="">
+  </div>
+  </div>
   <div class="body">
+    
     <div class="nav-bar">
       <!--*Logo Section-->
       <div class="logo">
@@ -22,14 +31,89 @@
         <a href="#" class="nav-links">About Us</a>
         <a href="#" class="nav-links">Careers</a>
         <a href="#" class="nav-links">Community</a>
+        <!--TODO:Mobile Link Section-->  
       </div>
-      <!--TODO:Mobile Link Section-->
-      
+      <div class="mobile-nav">
+        <i class="fa fa-bars fa-1.5x"></i>
+      </div>
       <div class="get-started">
         <button class='get-started-button'>Get Started</button>
       </div>
-
     </div>
+    <!--*NavBar End-->
+    <section class="home">
+      <div class="left">
+        <h1 class="home-header">Bring everyone together to build better products.</h1>
+        <p class="home-description">Manage makes it simple for software teams to plan day-to-day 
+          tasks while keeping the larger team goals in view.
+        </p>
+        <div class="get-started">
+          <button class='get-started-button'>Get Started</button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="images/illustration-intro.svg" alt="">
+      </div>
+    </section>
+
+    <section class="home">
+      <div class="left">
+        <h1 class="home-header">What's different about Manage ?</h1>
+        <p class="home-description"> Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams. </p>
+
+      </div>
+      <!-- <div class="right right-bar">
+        <div class="testimonial">
+          <div class="onebar">
+            <div class="pill">
+              <h2>01</h2>
+            </div>
+            <h2>Track company-wide progress</h2>
+          </div>
+          
+        </div> -->
+        <div class="right right-bar">
+          <div class="testimonial">
+            <div class="testimonial-left">
+              <div class="pill">
+                <h2>01</h2>
+              </div>
+            </div>
+            <div class="testimonial-right">
+              <h2 class="testimonial-content">Track company-wide progress</h2>
+              <p class="home-description toast"> Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams. </p>
+            </div>
+            </div> 
+            <div class="testimonial">
+              <div class="testimonial-left">
+                <div class="pill">
+                  <h2>02</h2>
+                </div>
+              </div>
+              <div class="testimonial-right">
+                <h2 class="testimonial-content">Advanced built-in reports</h2>
+                <p class="home-description toast">   Set internal delivery estimates and track progress toward company 
+                  goals. Our customisable dashboard helps you build out the reports 
+                  you need to keep key stakeholders informed.</p>
+              </div>
+              </div> 
+              <div class="testimonial">
+                <div class="testimonial-left">
+                  <div class="pill">
+                    <h2>03</h2>
+                  </div>
+                </div>
+                <div class="testimonial-right">
+                  <h2 class="testimonial-content">Everything you need in one place</h2>
+                  <p class="home-description toast">Stop jumping from one service to another to communicate, store files, 
+                    track tasks and share documents. Manage offers an all-in-one team 
+                    productivity solution. </p>
+                </div>
+                </div> 
+        </div>
+
+      </div>
+    </section>
   </div>
   
 </body>
